@@ -1,0 +1,91 @@
+{
+  "company": {
+    "name": "Northwind Devices",
+    "description": "Fictional mid-size maker of networking hardware (routers, gateways, industrial sensors). All data in this repo is synthetic.",
+    "analyst": "Maya Chen",
+    "products": {
+      "AUR-1": {"name": "Aurora Wi-Fi 7 Router", "daily_revenue_usd": 410000},
+      "NIM-2": {"name": "Nimbus 5G Gateway", "daily_revenue_usd": 265000},
+      "SEN-3": {"name": "Sentry Industrial Sensor", "daily_revenue_usd": 120000}
+    }
+  },
+  "suppliers": [
+    {
+      "id": "S01", "name": "Formosa Precision Capacitors", "tier": 1,
+      "country": "Taiwan", "city": "Kaohsiung", "port": "Kaohsiung",
+      "parts": ["MLCC capacitors"], "products": ["AUR-1", "NIM-2"],
+      "share_of_bom_supply": 0.7, "inventory_days": 6, "lead_time_days": 21, "annual_spend_usd": 14200000,
+      "qualified_alternates": ["S07", "S08"]
+    },
+    {
+      "id": "S02", "name": "Kaohsiung Advanced Substrates", "tier": 2,
+      "country": "Taiwan", "city": "Kaohsiung", "port": "Kaohsiung",
+      "parts": ["IC substrates"], "products": ["AUR-1"],
+      "share_of_bom_supply": 0.4, "inventory_days": 14, "lead_time_days": 35, "annual_spend_usd": 6100000,
+      "qualified_alternates": ["S09"]
+    },
+    {
+      "id": "S03", "name": "Haiphong Circuit Works", "tier": 1,
+      "country": "Vietnam", "city": "Haiphong", "port": "Haiphong",
+      "parts": ["PCB assemblies"], "products": ["NIM-2", "SEN-3"],
+      "share_of_bom_supply": 0.6, "inventory_days": 7, "lead_time_days": 18, "annual_spend_usd": 18900000,
+      "qualified_alternates": ["S10"]
+    },
+    {
+      "id": "S04", "name": "Shenzhen Everlight Modules", "tier": 1,
+      "country": "China", "city": "Shenzhen", "port": "Yantian",
+      "parts": ["Wi-Fi radio modules"], "products": ["AUR-1"],
+      "share_of_bom_supply": 1.0, "inventory_days": 5, "lead_time_days": 28, "annual_spend_usd": 22400000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S05", "name": "Monterrey Polymer Housings", "tier": 1,
+      "country": "Mexico", "city": "Monterrey", "port": "Laredo (land)",
+      "parts": ["plastic enclosures"], "products": ["AUR-1", "NIM-2", "SEN-3"],
+      "share_of_bom_supply": 0.8, "inventory_days": 20, "lead_time_days": 10, "annual_spend_usd": 4300000,
+      "qualified_alternates": ["S11"]
+    },
+    {
+      "id": "S06", "name": "Hsinchu Power Semiconductor", "tier": 2,
+      "country": "Taiwan", "city": "Hsinchu", "port": "Keelung",
+      "parts": ["GaN power ICs"], "products": ["NIM-2"],
+      "share_of_bom_supply": 1.0, "inventory_days": 30, "lead_time_days": 60, "annual_spend_usd": 9800000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S07", "name": "Shenzhen Brightline Electronics", "tier": 1,
+      "country": "China", "city": "Shenzhen", "port": "Yantian",
+      "parts": ["MLCC capacitors"], "products": ["AUR-1", "NIM-2"],
+      "share_of_bom_supply": 0.2, "inventory_days": 9, "lead_time_days": 14, "annual_spend_usd": 3100000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S08", "name": "Penang MicroParts", "tier": 1,
+      "country": "Malaysia", "city": "Penang", "port": "Penang",
+      "parts": ["MLCC capacitors", "resistors"], "products": ["AUR-1", "NIM-2", "SEN-3"],
+      "share_of_bom_supply": 0.1, "inventory_days": 9, "lead_time_days": 16, "annual_spend_usd": 2200000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S09", "name": "Osaka Substrate Technologies", "tier": 2,
+      "country": "Japan", "city": "Osaka", "port": "Osaka",
+      "parts": ["IC substrates"], "products": ["AUR-1"],
+      "share_of_bom_supply": 0.6, "inventory_days": 14, "lead_time_days": 30, "annual_spend_usd": 7400000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S10", "name": "Bangalore Board Assembly", "tier": 1,
+      "country": "India", "city": "Bengaluru", "port": "Chennai",
+      "parts": ["PCB assemblies"], "products": ["NIM-2", "SEN-3"],
+      "share_of_bom_supply": 0.4, "inventory_days": 7, "lead_time_days": 24, "annual_spend_usd": 9100000,
+      "qualified_alternates": []
+    },
+    {
+      "id": "S11", "name": "Querétaro Molding Group", "tier": 1,
+      "country": "Mexico", "city": "Querétaro", "port": "Laredo (land)",
+      "parts": ["plastic enclosures"], "products": ["AUR-1", "NIM-2", "SEN-3"],
+      "share_of_bom_supply": 0.2, "inventory_days": 20, "lead_time_days": 12, "annual_spend_usd": 1100000,
+      "qualified_alternates": []
+    }
+  ]
+}

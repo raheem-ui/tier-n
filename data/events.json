@@ -1,0 +1,27 @@
+[
+  {
+    "id": "E1", "date": "2026-09-21", "title": "Typhoon Haikui warning: Kaohsiung port expected closed",
+    "description": "Taiwan's Central Weather Administration issued a sea warning for Typhoon Haikui. Kaohsiung port authority expects to suspend operations for 4-5 days starting in 48 hours.",
+    "affected_suppliers": ["S01", "S02"], "expected_disruption_days": 5
+  },
+  {
+    "id": "E2", "date": "2026-09-24", "title": "Power rationing ordered for southern Taiwan industrial zones",
+    "description": "Taiwan's grid operator ordered rotating power cuts for heavy industrial users in Kaohsiung after typhoon damage to a substation. Plants expect to run at about half capacity for 8 days.",
+    "affected_suppliers": ["S01"], "expected_disruption_days": 8
+  },
+  {
+    "id": "E3", "date": "2026-09-25", "title": "Fire at Yantian-area industrial park, Shenzhen",
+    "description": "A fire at an industrial park in Shenzhen's Yantian district has halted operations at several electronics plants. Local authorities estimate a 7-day safety shutdown.",
+    "affected_suppliers": ["S04", "S07"], "expected_disruption_days": 7
+  },
+  {
+    "id": "E4", "date": "2026-09-26", "title": "Dockworker strike announced at Haiphong port",
+    "description": "Port workers' union in Haiphong, Vietnam announced a strike over wages starting Monday, expected to last about 8 days.",
+    "affected_suppliers": ["S03"], "expected_disruption_days": 8
+  },
+  {
+    "id": "E5", "date": "2026-09-27", "title": "New gallium export licensing rules tightened",
+    "description": "New export licensing requirements for gallium compounds take effect in 30 days, with processing times reported at 45-60 days.",
+    "affected_suppliers": ["S06"], "expected_disruption_days": 45
+  }
+]

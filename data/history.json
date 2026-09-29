@@ -1,0 +1,50 @@
+[
+  {
+    "id": "H01", "date": "2024-07-26", "kind": "incident", "suppliers": ["S01", "S02"],
+    "content": "Typhoon Gaemi closed Kaohsiung port for 4 days in July 2024. Formosa Precision Capacitors (S01) shipments slipped 9 days in total because the port backlog took 5 extra days to clear after reopening. Lesson: for Kaohsiung closures, real delay is roughly closure length plus 5 days of backlog."
+  },
+  {
+    "id": "H02", "date": "2024-07-30", "kind": "decision", "suppliers": ["S01"],
+    "content": "During the July 2024 Kaohsiung typhoon, Maya Chen approved air-freighting 40% of Formosa Precision Capacitors (S01) MLCC volume from Kaohsiung airport. It cost $180,000 in premium freight and fully avoided an Aurora router (AUR-1) line stoppage. Outcome: success; Maya said she would do it again."
+  },
+  {
+    "id": "H03", "date": "2024-11-12", "kind": "incident", "suppliers": [],
+    "content": "In November 2024 Northwind bought MLCC capacitors from spot-market broker QuickChip Brokers during a shortage. 12% of the lot was counterfeit and caused a field recall of 3,000 Nimbus gateways costing $1.4M. Maya Chen banned spot-market brokers: never recommend brokers or grey-market sourcing."
+  },
+  {
+    "id": "H04", "date": "2025-01-20", "kind": "preference", "suppliers": [],
+    "content": "Maya Chen's standing preference for risk briefs: lead with revenue at risk in USD, then list actions ranked by time-to-effect (fastest first), each with an estimated cost. Keep it under 250 words. She dislikes generic advice like 'monitor the situation' or 'diversify suppliers'."
+  },
+  {
+    "id": "H05", "date": "2025-03-04", "kind": "incident", "suppliers": ["S03"],
+    "content": "Haiphong Circuit Works (S03) had a 6-day labor stoppage in March 2025 over overtime pay. Dual-sourcing to Bangalore Board Assembly (S10) worked but S10 needed 10 days to ramp to extra volume, so ramp requests must be placed on day one."
+  },
+  {
+    "id": "H06", "date": "2025-06-18", "kind": "decision", "suppliers": ["S08"],
+    "content": "In June 2025 Penang MicroParts (S08) successfully ramped resistor supply by 3x within 2 weeks during a Brightline shortage. Penang MicroParts is Northwind's most responsive alternate for passives, and holds 30 days of consignment stock for Northwind that can be pulled with 48 hours notice."
+  },
+  {
+    "id": "H07", "date": "2025-09-02", "kind": "incident", "suppliers": ["S05"],
+    "content": "Hurricane-related flooding in September 2025 shut the Laredo border crossing for 3 days. Monterrey Polymer Housings (S05) inventory buffer of 20 days absorbed it with no impact. Maya noted that 20-day buffers on enclosures mean short border closures can be ignored."
+  },
+  {
+    "id": "H08", "date": "2025-10-15", "kind": "decision", "suppliers": ["S04"],
+    "content": "In October 2025 Maya Chen tried to qualify a second source for Wi-Fi radio modules because Shenzhen Everlight Modules (S04) is single-source for the Aurora router. Qualification takes 16 weeks and was not started due to budget. Single-source dependency on S04 remains Northwind's top structural risk."
+  },
+  {
+    "id": "H09", "date": "2026-03-10", "kind": "audit", "suppliers": ["S07"],
+    "content": "Shenzhen Brightline Electronics (S07) failed a Northwind quality audit in March 2026: MLCC capacitance drift out of spec in 2 of 5 lots. A corrective action (CAPA-2291) is open. Do not shift volume to Brightline until the CAPA is closed."
+  },
+  {
+    "id": "H10", "date": "2026-04-22", "kind": "incident", "suppliers": ["S06"],
+    "content": "In April 2026 Hsinchu Power Semiconductor (S06) warned that gallium export controls could cut its GaN wafer supply by 30%. Maya pre-bought 8 weeks of GaN power ICs, raising S06 inventory to 30 days. Northwind's contract with S06 includes an allocation-priority clause."
+  },
+  {
+    "id": "H11", "date": "2026-05-30", "kind": "decision", "suppliers": ["S01"],
+    "content": "Northwind's logistics provider confirmed that Kaohsiung airport cargo capacity sells out within 24 hours of a typhoon warning. In a typhoon, air freight must be booked on the day the warning is issued, not after landfall."
+  },
+  {
+    "id": "H12", "date": "2026-06-14", "kind": "preference", "suppliers": ["S02", "S09"],
+    "content": "Maya Chen prefers shifting IC substrate volume to Osaka Substrate Technologies (S09) over waiting on Kaohsiung Advanced Substrates (S02). S09 can absorb up to 25% extra volume with one week of notice, at a 6% unit-price premium."
+  }
+]
