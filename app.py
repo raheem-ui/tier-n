@@ -50,6 +50,11 @@ with st.sidebar:
     st.header("🛰️ Tier-N")
     st.caption(f"Risk analyst for **Northwind Devices** (synthetic data). Working with **{analyst_name()}**.")
     st.markdown(f"**Memory bank:** `{settings.bank_id}`  \n**LLM:** `{settings.groq_model}`")
+
+    def _key_status(k: str | None) -> str:
+        return f"set ({k[:3]}…, {len(k)} chars)" if k else "**missing**"
+
+    st.caption(f"Hindsight key: {_key_status(settings.hindsight_api_key)} · Groq key: {_key_status(settings.groq_api_key)}")
     if memory is not None:
         n = memory.memory_count()
         if n is not None:
